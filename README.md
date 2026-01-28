@@ -34,27 +34,6 @@ MySQL stores normalized relational data with foreign key constraints.
 
 Power BI connects to MySQL and provides interactive dashboards using DAX.
 
-📂 Project Structure
-E-commerce_project/
-│
-├── config/
-│   └── config.py                 # Database & data volume configuration
-│
-├── scripts/
-│   ├── generate_and_insert_data.py  # Python data generator (direct DB insert)
-│   └── upload_to_mysql.py           # Optional Excel → MySQL loader
-│
-├── sql/
-│   └── sql_scripts.sql            # Table creation & constraints
-│
-├── dashboard/
-│   └── Ecommerce_PowerBI_Dashboard.pbix
-│
-├── Excel_files/                   # Optional (raw Excel inputs)
-│
-├── .venv/                         # Virtual environment
-│
-└── README.md
 
 🗄️ Database Design
 Tables Used
